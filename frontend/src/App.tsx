@@ -4,7 +4,7 @@ import { useState } from 'react'
 import './App.css'
 
 const baseURL = import.meta.env.BASE_URL;
-const reactLogo = `${baseURL}assets/react.svg`;
+const reactLogo = `${baseURL}react.svg`;
 const viteLogo = `${baseURL}vite.svg`;
 
 function App() {
