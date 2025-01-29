@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: 's/llm-project/' // ベースURLを設定
+  base: '/llm-project/' // ベースURLを設定
 });
