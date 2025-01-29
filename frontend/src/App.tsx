@@ -1,7 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from '{{ site.baseurl }}/assets/react.svg'
+// import viteLogo from '{{ site.baseurl }}/vite.svg'
 import './App.css'
+
+const baseURL = import.meta.env.BASE_URL;
+const reactLogo = `${baseURL}assets/react.svg`;
+const viteLogo = `${baseURL}vite.svg`;
 
 function App() {
   const [count, setCount] = useState(0)
